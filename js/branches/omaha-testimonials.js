@@ -25,7 +25,6 @@ function sortTestimonialsAndClients() {
     jQuery('ul#testimonials p:odd').addClass('client');
 }
 
-//Run The Testimonials Getter!
 jQuery(document).ready(function (jQuery) {
     window.script_cycle = function () {
         jQuery('#testimonials').cycle();
